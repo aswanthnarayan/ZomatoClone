@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zomato</title>
+    <link rel="icon" href="https://b.zmtcdn.com/data/o2_assets/5376b760d3b12ca9af29fc8f4e1847e71717417610.png">
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
     <link
@@ -27,8 +28,7 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          
+          data-bs-target="#navbarNav" 
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,7 +39,10 @@
                 class="form-control me-2 input-box" 
                 type="search"
                 aria-label="Search"
+                placeholder="Search for restaurant, cusine or a dish"
               />
+            
+                
             </li>
           </ul>
           <ul class="navbar-nav">
@@ -53,8 +56,8 @@
         </div>
       </div>
     </nav>
-    <section class="filter-sec container-fluid my-3 d-flex justify-content-center">
-      <div class="row w-100">
+    <section class="filter-sec container-fluid my-4 d-flex justify-content-center ">
+      <div class="row w-100 px-md-5">
         <div class="col-6 col-sm-auto">
           <button class="btn btn-outline-secondary btn-md w-100 d-flex justify-content-center gap-2"><i class="bi bi-funnel"></i>Filters</button>
         </div>
@@ -69,145 +72,664 @@
         </div>
       </div>
     </section>
-    <section class="bg-light">
-      <p class="h5 p-3">Inspiration for your first order</p>
+    <section class="bg-light p-1 p-sm-2 p-md-4 p-lg-5">
+      <p class="h2 p-3">Inspiration for your first order</p>
       <div class="container-fluid px-4">
         <div class="row justify-content-around">
           <div class="col-6 col-md-4 col-lg-2 text-center featured">
               <div class="img-container">
                   <img src="https://b.zmtcdn.com/data/o2_assets/37df381734b24f138af4a84fd7e4d4ec1716558578.jpeg" alt="Biriyani">
               </div>
-              <p>Biriyani</p>
+              <p class="h5">Biriyani</p>
           </div>
           <div class="col-6 col-md-4 col-lg-2 text-center featured">
             <div class="img-container">
-                <img src="https://b.zmtcdn.com/data/o2_assets/37df381734b24f138af4a84fd7e4d4ec1716558578.jpeg" alt="Biriyani">
+                <img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" alt="Biriyani">
             </div>
-            <p>Biriyani</p>
+            <p class="h5">Pizza</p>
         </div>
         <div class="col-6 col-md-4 col-lg-2 text-center featured">
           <div class="img-container">
-              <img src="https://b.zmtcdn.com/data/o2_assets/37df381734b24f138af4a84fd7e4d4ec1716558578.jpeg" alt="Biriyani">
+              <img src="https://b.zmtcdn.com/data/o2_assets/2f34540e0b12058f5f8b9390c3a3fb4a1648972281.png" alt="Biriyani">
           </div>
-          <p>Biriyani</p>
+          <p class="h5">Shawarma</p>
       </div>
       <div class="col-6 col-md-4 col-lg-2 text-center featured">
         <div class="img-container">
-            <img src="https://b.zmtcdn.com/data/o2_assets/37df381734b24f138af4a84fd7e4d4ec1716558578.jpeg" alt="Biriyani">
+            <img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png" alt="Biriyani">
         </div>
-        <p>Biriyani</p>
+        <p class="h5">Chiken</p>
     </div>
     <div class="col-6 col-md-4 col-lg-2 text-center featured d-none d-md-block">
       <div class="img-container">
-          <img src="https://b.zmtcdn.com/data/o2_assets/37df381734b24f138af4a84fd7e4d4ec1716558578.jpeg" alt="Biriyani">
+          <img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png" alt="Biriyani">
       </div>
-      <p>Biriyani</p>
+      <p class="h5">Burger</p>
   </div>
   <div class="col-6 col-md-4 col-lg-2 text-center featured d-none d-md-block">
     <div class="img-container">
-        <img  src="https://b.zmtcdn.com/data/o2_assets/37df381734b24f138af4a84fd7e4d4ec1716558578.jpeg" alt="Biriyani">
+        <img  src="https://b.zmtcdn.com/data/dish_images/d5ab931c8c239271de45e1c159af94311634805744.png" alt="Biriyani">
     </div>
-    <p>Biriyani</p>
+    <p class="h5">Cake</p>
   </div>
         </div>
       </div>
   </section>
   
 
-  <!-- Improvement needed -->
-   <section class="hotels-container">
-    <p>Cherthala Locality Restaurants</p>
-    <div class="container-fluid d-flex justify-content-evenly">
-      <div class="row w-100 d-flex gap-2">
-
-        <div class="  col-lg-4 col-md-6 col-sm-12 resto-card border ">
-          <img  src="https://b.zmtcdn.com/data/o2_assets/e90a634895787ce77a93212351fa18991678798565.jpeg" alt="">
+  <!-- -->
+  <section class="hotels-container">
+    <p class="h2 p-5">Cherthala Locality Restaurants</p>
+    <div class="container-fluid d-flex justify-content-center ">
+      <div class="row w-100 d-flex justify-content-center gap-5 mb-5">
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/1/20747471/cd92a6a6a1d17ea91e766139acff44fd_o2_featured_v2.jpg?output-format=webp" alt="">
           <div class="text-section d-flex flex-column">
             <div class="text-left d-flex justify-content-between">
-              <p class="h5">Head</p>
-              <div class="border px-1 rounded bg-success text-white">4.3 <i class="bi bi-star"></i></div>
+              <p class="h5">Heaven</p>
+              <div class="border px-1 rounded bg-success text-white">3.9 <i class="bi bi-star"></i></div>
             </div>
-            <div class="text-right d-flex justify-content-between ">
-              <p class="text-muted" >Lorem, ipsum dolor.</p>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South indian, North indian..</p>
               <div class="d-flex flex-column">
-                <p class="fs-6">250 for one</p>
-                <p class="align-self-end">17 min</p>
+                <p class="rupee-text"> &#x20b9; 150 for one</p>
+                <p class="align-self-end "><b>17 min</b></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="  col-lg-4 col-md-6 col-sm-12 resto-card border p-2 ">
-          <img  src="https://b.zmtcdn.com/data/o2_assets/e90a634895787ce77a93212351fa18991678798565.jpeg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/7/20624177/80ddf997c66365a411147732c4d0853b_o2_featured_v2.jpg?output-format=webp" alt="">
           <div class="text-section d-flex flex-column">
             <div class="text-left d-flex justify-content-between">
-              <p class="h5">Head</p>
+              <p class="h5">Bufia</p>
               <div class="border px-1 rounded bg-success text-white">4.3 <i class="bi bi-star"></i></div>
             </div>
-            <div class="text-right d-flex justify-content-between ">
-              <p class="text-muted" >Lorem, ipsum dolor.</p>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Arabian Mandhi ,Biriyani ...</p>
               <div class="d-flex flex-column">
-                <p class="fs-6">250 for one</p>
-                <p class="align-self-end">17 min</p>
+                <p class="rupee-text">&#x20b9; 150 for one</p>
+                <p class="align-self-end "><b>17 min</b></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="  col-lg-4 col-md-6 col-sm-12 resto-card p-2 ">
-          <img  src="https://b.zmtcdn.com/data/o2_assets/e90a634895787ce77a93212351fa18991678798565.jpeg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/5/19899065/0cf581095ec2677ac09caf6aaaad3150_o2_featured_v2.jpg?output-format=webp" alt="">
           <div class="text-section d-flex flex-column">
             <div class="text-left d-flex justify-content-between">
-              <p class="h5">Head</p>
-              <div class="border px-1 rounded bg-success text-white">4.3 <i class="bi bi-star"></i></div>
+              <p class="h5">Achayans</p>
+              <div class="border px-1 rounded bg-success text-white">3.5 <i class="bi bi-star"></i></div>
             </div>
-            <div class="text-right d-flex justify-content-between ">
-              <p class="text-muted" >Lorem, ipsum dolor.</p>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South indian, North indian,Chi...</p>
               <div class="d-flex flex-column">
-                <p class="fs-6">250 for one</p>
-                <p class="align-self-end">17 min</p>
+                <p class="rupee-text">&#x20b9; 250 for one</p>
+                <p class="align-self-end "><b>17 min</b></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="  col-lg-4 col-md-6 col-sm-12 resto-card p-2 ">
-          <img  src="https://b.zmtcdn.com/data/o2_assets/e90a634895787ce77a93212351fa18991678798565.jpeg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/7/19900297/b100da44a532781334e75b19658d5fcb_o2_featured_v2.jpg?output-format=webp" alt="">
           <div class="text-section d-flex flex-column">
             <div class="text-left d-flex justify-content-between">
-              <p class="h5">Head</p>
-              <div class="border px-1 rounded bg-success text-white">4.3 <i class="bi bi-star"></i></div>
+              <p class="h5">Shenoy's Hotel</p>
+              <div class="border px-1 rounded bg-success text-white">4.0 <i class="bi bi-star"></i></div>
             </div>
-            <div class="text-right d-flex justify-content-between ">
-              <p class="text-muted" >Lorem, ipsum dolor.</p>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South Indian, Biryani, Bevera...</p>
               <div class="d-flex flex-column">
-                <p class="fs-6">250 for one</p>
-                <p class="align-self-end">17 min</p>
+                <p class="rupee-text">&#x20b9;100 for one</p>
+                <p class="align-self-end "><b>17 min</b></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="  col-lg-4 col-md-6 col-sm-12 resto-card p-2 ">
-          <img  src="https://b.zmtcdn.com/data/o2_assets/e90a634895787ce77a93212351fa18991678798565.jpeg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/8/19898858/7153e62a7a5c94fdd542aa413ac2b753_o2_featured_v2.jpg?output-format=webp" alt="pr">
           <div class="text-section d-flex flex-column">
             <div class="text-left d-flex justify-content-between">
-              <p class="h5">Head</p>
+              <p class="h5">RR Open Restaurant</p>
+              <div class="border px-1 rounded bg-success text-white">3.9 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South Indian, Biryani, Arabia...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 250 for one</p>
+                <p class="align-self-end "><b>17 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/5/19909355/f0facc6eec48bd00b149f8b9e1649d0d_o2_featured_v2.jpg?output-format=webp" alt="Papillop Bistro Cafe">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Papillop Bistro Cafe</p>
+              <div class="border px-1 rounded bg-success text-white">3.8 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Burger, Lebanese, Fast Food...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>27 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/1/19888091/09087f0987af41cb5df23054dc53fad5_o2_featured_v2.jpg?output-format=webp" alt="le bon">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Le Bon Cakes And Delicacies</p>
+              <div class="border px-1 rounded bg-success text-white">4.2 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Fast Food, Bakery, Desserts...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>29 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/chains/0/20216280/d676329113460a529ab7baddc0bae87d_o2_featured_v2.jpg?output-format=webp" alt="Grill N Chill">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Grill N Chill</p>
               <div class="border px-1 rounded bg-success text-white">4.3 <i class="bi bi-star"></i></div>
             </div>
-            <div class="text-right d-flex justify-content-between ">
-              <p class="text-muted" >Lorem, ipsum dolor.</p>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Fast Food, Burger, Leban...</p>
               <div class="d-flex flex-column">
-                <p class="fs-6">250 for one</p>
-                <p class="align-self-end">17 min</p>
+                <p class="rupee-text">&#x20b9; 150 for one</p>
+                <p class="align-self-end "><b>28 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/1/20676281/cd59da9329570a67357c63b66def38a1_o2_featured_v2.jpg" alt="Vaishnavam">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Vaishnavam Hotel & Bakery</p>
+              <div class="border px-1 rounded bg-success text-white">4.1 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South Indian, North Indian...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>26 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/3/20675843/962ea268dc14c2c9eb770bf83b83b334_o2_featured_v2.jpg" alt="Pocket Diner">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Pocket Diner</p>
+              <div class="border px-1 rounded bg-success text-white">3.9 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Chinese, Biryani, Kerala, Nort...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>28 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/8/19918288/9d410d8244f0b15f870135d230c53bc0_o2_featured_v2.jpg" alt="Gandhis Restaurant">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Gandhis Restaurant</p>
+              <div class="border px-1 rounded bg-success text-white">4.5 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South Indian, Biryani</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 150 for one</p>
+                <p class="align-self-end "><b>17 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/5/19903305/d9acac83764be8eaa92bf0c3d994c04a_o2_featured_v2.jpg" alt="Huts">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Huts Restaurant</p>
+              <div class="border px-1 rounded bg-success text-white">4.5 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South Indian, Chinese, Bir...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>22 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/4/20890124/81228bcf0c282d553a5825f7b91f4940_o2_featured_v2.jpg" alt="Cafe Pachila">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Cafe Pachila</p>
+              <div class="border px-1 rounded bg-success text-white">4.2 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Arabian, Fast Food, Mandi...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 150 for one</p>
+                <p class="align-self-end "><b>20 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/9/19895609/27b729d8ddbdef3345e182684c49864f_o2_featured_v2.jpg" alt="Mom's Kitchen">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Mom's Kitchen</p>
+              <div class="border px-1 rounded bg-success text-white">3.8 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South Indian, Chinese, Bi...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 180 for one</p>
+                <p class="align-self-end "><b>27 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/7/19905667/b7fc6901783703020a0231bf6bc8c665_o2_featured_v2.jpg" alt="Hotel Travancore Palace">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Hotel Travancore Palace</p>
+              <div class="border px-1 rounded bg-success text-white">3.5 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South Indian, North Indian, C...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>28 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/6/20017336/64b6f69c62becf6d54d869d832ce0888_o2_featured_v2.jpg" alt="Just Bake Cherthala">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Just Bake Cherthala</p>
+              <div class="border px-1 rounded bg-success text-white">3.7 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Fast Food, Burger, Pizza, ...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>28 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/7/20004277/86f257ba883c1736cf700ee157ac909d_o2_featured_v2.jpg" alt="Vazhiyoram Food Truck">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Vazhiyoram Food Truck</p>
+              <div class="border px-1 rounded bg-success text-white">4.0 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South indian</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>22 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/7/20966077/fc905be46d600ba138add6e47a5dc30b_o2_featured_v2.jpg" alt="Devus Foods">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Devus Foods</p>
+              <div class="border px-1 rounded bg-success text-white">3.8 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South Indian, North Indian</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 150 for one</p>
+                <p class="align-self-end "><b>28 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/0/20896700/db3eb50bcba5b7f1c8e211b2953d02a4_o2_featured_v2.jpg" alt="Lijo Bakery">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Lijo Bakery</p>
+              <div class="border px-1 rounded bg-success text-white">3.2 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Bakery, Fast Food</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>21 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/2/21262762/224ec708b899b37bc1e9a01a06800678_o2_featured_v2.jpg" alt="Fruit Bee">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Fruit Bee</p>
+              <div class="border px-1 rounded bg-success text-white">4.1 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Juices, Shake, Beverages</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>28 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/1/19903471/6b69f6f6c4af7574730b63515c2c5f71_o2_featured_v2.jpg" alt="Way Side Inn">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Way Side Inn</p>
+              <div class="border px-1 rounded bg-success text-white">4.1 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">South Indian, Chinese, Bir...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 200 for one</p>
+                <p class="align-self-end "><b>20 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/0/21306920/16d78d20e2383b6970f9c67b9b29fb27_o2_featured_v2.jpg" alt="Green Pepp">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Green Pepp</p>
+              <div class="border px-1 rounded bg-success text-white">3.9 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">North Indian, Biryani, Chin...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 180 for one</p>
+                <p class="align-self-end "><b>24 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/5/20531265/5e4236b7534822884b2a614bfc05f0df_o2_featured_v2.jpg" alt="Cinnamon Kitchen">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Cinnamon Kitchen</p>
+              <div class="border px-1 rounded bg-success text-white">4.0 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Kerala, South Indian, Biryani</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>20 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/3/20544373/dada8948cca6a79cbe9d6676ae06c93a_o2_featured_v2.jpg" alt="Nandanam Shake Parlour">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Nandanam Shake Parlour</p>
+              <div class="border px-1 rounded bg-success text-white">3.4 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Shake, Beverages, Street...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 100 for one</p>
+                <p class="align-self-end "><b>28 min</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 resto-card ">
+          <img src="https://b.zmtcdn.com/data/pictures/2/21219122/d0593d563d48ee4b7d7d9a8edea63463_o2_featured_v2.jpg" alt="Lubaca">
+          <div class="text-section d-flex flex-column">
+            <div class="text-left d-flex justify-content-between">
+              <p class="h5">Lubaca</p>
+              <div class="border px-1 rounded bg-success text-white">3.7 <i class="bi bi-star"></i></div>
+            </div>
+            <div class="text-right d-flex justify-content-between">
+              <p class="text-muted">Fast Food, Sandwich, Itali...</p>
+              <div class="d-flex flex-column">
+                <p class="rupee-text">&#x20b9; 200 for one</p>
+                <p class="align-self-end "><b>30 min</b></p>
               </div>
             </div>
           </div>
         </div>
         
-
       </div>
-   
-
     </div>
   </section>
+
+  <section class="d-flex justify-content-center align-items-center gap-5 py-5">
+    <p class="display-6">End of search results</p>
+    <img class="end-image" src="https://b.zmtcdn.com/web/assets/search/6d548ba48f0e4e4b46c19ad4b15a3f011615379209.jpeg" alt="shopimage">
+  </section>
+
   
+  <section class="bg-light d-flex flex-column gap-3 ">
+    <p class="mt-5 px-4 h2">Explore options near me</p>
+    <div class="accordion  d-flex flex-column gap-3 px-4 mb-5" id="accordionExample">
+      <div class="accordion-item ">
+        <h2 class="accordion-header">
+          <button class="accordion-button py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Popular cuisines near me 
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="d-flex flex-wrap accordion-type-1 ">
+              <li>Arabian food near me</li><li>Bakery food near me</li><li>Beverages food near me</li><li>Biryani food near me</li><li>Burger food near me</li><li>Cafe food near me</li><li>Chinese food near me</li><li>Coffee food near me</li><li>Desserts food near me</li> <li>Ice Cream food near me</li><li>Juices food near me</li><li>Kerala food near me</li>  <li>Lebanese food near me</li> <li>Mandi food near me</li><li>izza food near me</li> <li>Sandwich food near me</li> <li>Seafood food near me</li>   <li>Shake food near me</li> <li>South Indian food near me</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button py-4 collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Popular restaurant types near me
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="d-flex flex-wrap accordion-type-1">
+              <li>Bakeries near me</li><li>Beverage Shops near me</li><li>Cafés near me</li><li>Casual Dining near me</li><li>Dessert Parlors near me</li><li>Quick Bites near me</li><li>Sweet Shops near me</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button py-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Cities We Deliver To
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body d-flex flex-wrap justify-content-around ">
+            <ul class="accordion-type-2">
+              <li>Delhi NCR</li>
+              <li>Kolkata</li>
+              <li>Mumbai</li>
+              <li>Bengaluru</li>
+              <li>Pune</li>
+              <li>Hyderabad</li>
+              <li>Chennai</li>
+              <li>Lucknow</li>
+              <li>Kochi</li>
+              <li>Jaipur</li>
+              <li>Chandigarh</li>
+              <li>Goa</li>
+              <li>Indore</li>
+            </ul>
+            <ul class="accordion-type-2">
+              <li>Gangtok</li>
+              <li>Nasik</li>
+              <li>Ooty</li>
+              <li>Shimla</li>
+              <li>Ludhiana</li>
+              <li>Guwahati</li>
+              <li>Amritsar</li>
+              <li>Kanpur</li>
+              <li>Allahabad</li>
+              <li>Aurangabad</li>
+              <li>Bhopal</li>
+              <li>Ranchi</li>
+              <li>Visakhapatnam</li>
+            </ul>
+            <ul class="accordion-type-2">
+              <li>Bhubaneswar</li>
+              <li>Coimbatore</li>
+              <li>Mangalore</li>
+              <li>Vadodara</li>
+              <li>Nagpur</li>
+              <li>Agra</li>
+              <li>Dehradun</li>
+              <li>Mysore</li>
+              <li>Puducherry</li>
+              <li>Surat</li>
+              <li>Varanasi</li>
+              <li>Patna</li>
+              <li>Udaipur</li>
+            </ul>
+            <ul class="accordion-type-2">
+              <li>Srinagar</li>
+              <li>Khajuraho</li>
+              <li>Neemrana</li>
+              <li>Cuttack</li>
+              <li>Trivandrum</li>
+              <li>Haridwar</li>
+              <li>Leh</li>
+              <li>Pushkar</li>
+              <li>Rajkot</li>
+              <li>Madurai</li>
+              <li>Kozhikode</li>
+              <li>Alappuzha</li>
+              <li>Thrissur</li>
+            </ul>
+            <ul class="accordion-type-2 last-list">
+              <li>Manipal</li>
+              <li>Vijayawada</li>
+              <li>Jodhpur</li>
+              <li>Kota</li>
+              <li>Ajmer</li>
+              <li>Mussoorie</li>
+              <li>Rishikesh</li>
+              <li>Jalandhar</li>
+              <li>Jammu</li>
+              <li>Manali</li>
+              <li>All delivery cities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <footer class="container mt-4 mb-4">
+    <div class="d-flex justify-content-between align-items-center mb-3 ">
+        <a class="d-flex align-items-center" href="#">
+            <img
+                src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*"
+                alt="logo"
+                class="footer-img"
+            />
+        </a>
+        <div class="d-flex gap-2">
+            <button class="btn btn-outline-secondary btn-sm btn-md w-auto w-sm-100 d-flex justify-content-center gap-1">
+              <i class="bi bi-flag"></i>Country
+            </button>
+            <button class="btn btn-outline-secondary btn-sm btn-md w-auto w-sm-100 d-flex justify-content-center gap-1">
+              <i class="bi bi-translate"></i> Language
+            </button>
+        </div>
+    </div>
+    <div class="row d-flex gap-2">
+        <div class="col-12 col-md-2">
+            <p class="h5 mb-1">About Zomato</p>
+            <ul class="list-unstyled">
+                <li>Who We Are</li>
+                <li>Blog</li>
+                <li>Work With Us</li>
+                <li>Investor Relations</li>
+                <li>Report Fraud</li>
+                <li>Press Kit</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-2">
+            <p class="h5 mb-1">Zomaverse</p>
+            <ul class="list-unstyled">
+                <li>Zomato</li>
+                <li>Blinkit</li>
+                <li>Feeding India</li>
+                <li>Hyperpure</li>
+                <li>Report Fraud</li>
+                <li>Zomaland</li>
+                <li>Weather Union</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-2">
+            <p class="h5 mb-1">For Restaurants</p>
+            <ul class="list-unstyled">
+                <li>Partner With Us</li>
+                <li>Apps For You</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-2">
+            <p class="h5 mb-1">Learn More</p>
+            <ul class="list-unstyled">
+                <li>Privacy</li>
+                <li>Security</li>
+                <li>Terms</li>
+                <li>Sitemap</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-2 social-links">
+            <p class="h5 mb-1">Social Links</p>
+            <ul class="list-unstyled d-flex gap-2">
+                <li><i class="bi- bi-linkedin social-icon"></i></li>
+                <li><i class="bi bi-instagram social-icon"></i></li>
+                <li><i class="bi bi-twitter social-icon "></i></li>
+                <li><i class="bi bi-youtube social-icon"></i></li>
+                <li><i class="bi bi-facebook social-icon"></i></li>
+            </ul>
+            <div class="external mt-3 d-flex flex-column gap-2">
+              <img class="img-fluid img-icon" src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="gplay">
+              <img class="img-fluid img-icon" src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="app store">
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
