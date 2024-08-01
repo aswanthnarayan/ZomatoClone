@@ -9,6 +9,9 @@
     padding: 2rem 5rem !important;
     margin: 0rem 4rem !important;
 }
+.breadcrumb li{
+    font-size: .8rem ;
+}
 .custom-search-input{
     width: 450px;
 }
